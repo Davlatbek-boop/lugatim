@@ -1,0 +1,32 @@
+{
+  "name": "wikiuz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node --watch app.js",
+    "prod": "cross-env NODE_ENV=production prod_secret=qwerty12345 node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "config": "^3.3.12",
+    "cookie-parser": "^1.4.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "express-winston": "^4.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^6.10.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "winston-mongodb": "^6.0.0"
+  }
+}

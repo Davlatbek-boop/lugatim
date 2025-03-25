@@ -1,0 +1,16 @@
+{
+  "port": 3001,
+  "dbUri": "mongodb+srv://admin:admin12345@cluster0.x30uj.mongodb.net/lugatim?retryWrites=true&w=majority&appName=Cluster0",
+  "tokenKey": "MyVeryVerSecretKey",
+  "tokenTime": 86400,
+  "access_key": "UserAccessTokenSecretKey",
+  "refresh_key": "UserRefreshTokenSecretKey",
+  "access_time": "55s",
+  "refresh_time": "57s",
+  "refresh_cookie_time": 1296000000,
+  "smtp_password": "qvyx oadg rrhq wepm",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "salimovdavlat0526@gmail.com",
+  "api_url": "http://localhost:3001"
+}

@@ -1,0 +1,137 @@
+{
+  "level": "error",
+  "message": "middlewareError",
+  "meta": {
+    "date": "Tue Mar 18 2025 10:03:58 GMT+0500 (Uzbekistan Standard Time)",
+    "error": {
+      "body": "{\r\n    \"email\":\"qwer@gmail.com\",\r\n    \"password\": \"S@l1m4!k\",\r\n}",
+      "expose": true,
+      "status": 400,
+      "statusCode": 400,
+      "type": "entity.parse.failed"
+    },
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: Expected double-quoted property name in JSON at position 63 (line 4 column 1)\nSyntaxError: Expected double-quoted property name in JSON at position 63 (line 4 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+    "os": { "loadavg": [0, 0, 0], "uptime": 31949.859 },
+    "process": {
+      "argv": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\app.js"
+      ],
+      "cwd": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim",
+      "execPath": "C:\\Program Files\\nodejs\\node.exe",
+      "gid": null,
+      "memoryUsage": {
+        "arrayBuffers": 18320689,
+        "external": 20764414,
+        "heapTotal": 31326208,
+        "heapUsed": 28475224,
+        "rss": 76632064
+      },
+      "pid": 4772,
+      "uid": null,
+      "version": "v22.14.0"
+    },
+    "req": {
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "64",
+        "content-type": "application/json",
+        "host": "localhost:3001",
+        "postman-token": "f04fc501-a466-466a-b933-62cf007e6c78",
+        "user-agent": "PostmanRuntime/7.43.2"
+      },
+      "httpVersion": "1.1",
+      "method": "POST",
+      "originalUrl": "/api/users/login",
+      "query": {},
+      "url": "/api/users/login"
+    },
+    "stack": "SyntaxError: Expected double-quoted property name in JSON at position 63 (line 4 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+    "trace": [
+      {
+        "column": null,
+        "file": null,
+        "function": "JSON.parse",
+        "line": null,
+        "method": "parse",
+        "native": false
+      },
+      {
+        "column": 19,
+        "file": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\types\\json.js",
+        "function": "parse",
+        "line": 92,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 18,
+        "file": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\body-parser\\lib\\read.js",
+        "function": null,
+        "line": 128,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 14,
+        "file": "node:async_hooks",
+        "function": "AsyncResource.runInAsyncScope",
+        "line": 211,
+        "method": "runInAsyncScope",
+        "native": false
+      },
+      {
+        "column": 16,
+        "file": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js",
+        "function": "invokeCallback",
+        "line": 238,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 7,
+        "file": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js",
+        "function": "done",
+        "line": 227,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 7,
+        "file": "C:\\Users\\ASUS-PC\\Desktop\\Davlat\\Davlat\\lugatim\\lugatim\\node_modules\\raw-body\\index.js",
+        "function": "IncomingMessage.onEnd",
+        "line": 287,
+        "method": "onEnd",
+        "native": false
+      },
+      {
+        "column": 28,
+        "file": "node:events",
+        "function": "IncomingMessage.emit",
+        "line": 518,
+        "method": "emit",
+        "native": false
+      },
+      {
+        "column": 12,
+        "file": "node:internal/streams/readable",
+        "function": "endReadableNT",
+        "line": 1698,
+        "method": null,
+        "native": false
+      },
+      {
+        "column": 21,
+        "file": "node:internal/process/task_queues",
+        "function": "process.processTicksAndRejections",
+        "line": 90,
+        "method": "processTicksAndRejections",
+        "native": false
+      }
+    ]
+  }
+}
