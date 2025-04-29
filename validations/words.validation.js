@@ -1,5 +1,4 @@
 const Joi = require("joi");
-const { Schema } = require("mongoose");
 
 exports.wordsValidation = (body) => {
   const schemaWord = Joi.object({

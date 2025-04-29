@@ -1,4 +1,3 @@
-const ApiError = require("../../helpers/api.error");
 
 module.exports = (allowedRoles) => {
   return (req, res, next) => {
